@@ -36,6 +36,7 @@ article {
 	width: calc(100% - 30px);
 	height: auto;
 	font-family: 'Abel', sans-serif;
+	font-size: 4vw;
 	text-align: center;
 }
 
