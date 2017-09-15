@@ -1,4 +1,10 @@
-header, aside, article, footer{
+header{
+	color: black;
+	float:left;
+
+}
+
+aside, article, footer{
 	color: black;
 	float:left;
 	padding-left: 15px;
