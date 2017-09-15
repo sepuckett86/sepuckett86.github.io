@@ -15,28 +15,36 @@ header, aside, article, footer{
 
 }
 
+}
 header {
-	background-color: #99ccff;
-	width: calc(100% - 30px);
+	background-color: black;
+	width: 100%;
+	text-align: center
 }
 
 aside {
  	background-color: yellow;
  	clear:left;
- 	width: calc(20% - 30px);
+ 	width: calc(100% - 30px);
+	text-align: center;
+	
  
 }
 
 article {
 	background-color:#e6f2ff;
-	width: calc(80% - 30px);
-	height: 400px;
+	width: calc(100% - 30px);
+	height: auto;
+	font-family: 'Abel', sans-serif;
+	text-align: center;
 }
 
 footer{
-	background-color:red;
+	background-color: #e6eeff;
 	width: 100%;
 	width: calc(100% - 30px);
+	text-align: center;
+	font-size: 12px;
 }
 
 @media screen and (max-width: 960px) {
