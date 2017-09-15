@@ -1,0 +1,40 @@
+header, aside, article, footer{
+	color: black;
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+#container {
+	font-family: helvetica;
+	background-color: #ffffff;
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+
+}
+
+header {
+	background-color: #99ccff;
+	width: calc(100% - 30px);
+}
+
+aside {
+ 	background-color: yellow;
+ 	clear:left;
+ 	width: calc(20% - 30px);
+ 
+}
+
+article {
+	background-color:#e6f2ff;
+	width: calc(80% - 30px);
+	height: 400px;
+}
+
+footer{
+	background-color:red;
+	width: 100%;
+	width: calc(100% - 30px);
+}
