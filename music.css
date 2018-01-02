@@ -8,11 +8,12 @@ aside, article, footer{
 
 header {
 	color: black;
-	background-color: black;
+	background-color: #1a202b;
 	width: 100%;
 	height: auto;
 	text-align: center;
 	float: left;
+	font-family: 'Abel', sans-serif;
 }
 
 #container {
@@ -22,6 +23,10 @@ header {
 	height: 500px;
 	margin: 0 auto;
 
+}
+
+body{
+	text-align: center;
 }
 hr {
     display: block;
@@ -40,8 +45,9 @@ aside {
 }
 h1 {
 	font-family: 'Abel', sans-serif;
-	font-size: 4vw;
+	font-size: 36px;
 	font-weight: normal;
+	margin-bottom: 15px;
 	}
 	
 article {
@@ -53,12 +59,17 @@ article {
 	text-align: center;
 }
 
-footer{
-	background-color: #b3d9ff;
-	width: 100%;
-	width: calc(100% - 30px);
-	text-align: center;
-	font-size: 12px;
+footer {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  background-color: #1a202b;
+  color: white;
+  margin-bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  line-height: 50px; /* Vertically center the text there */
 }
 
 @media screen and (max-width: 960px) {
@@ -67,7 +78,7 @@ footer{
 	}
 	
 }
-.container {
+.container2 {
     position: relative;
     width: 100%;
     height: 0;
