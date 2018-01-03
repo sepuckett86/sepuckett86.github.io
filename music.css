@@ -18,7 +18,7 @@ header {
 
 #container {
 	font-family: helvetica;
-	background-color: #ffffff;
+
 	width: 960px;
 	height: 500px;
 	margin: 0 auto;
@@ -27,6 +27,8 @@ header {
 
 body{
 	text-align: center;
+	background-color: white;
+	
 }
 hr {
     display: block;
