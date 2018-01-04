@@ -81,6 +81,11 @@ footer {
 	
 }
 
+.borderA{
+	border: solid;
+	border-width: 1px;
+	border-color: gray;
+}
   
 .video {
     position: absolute;
