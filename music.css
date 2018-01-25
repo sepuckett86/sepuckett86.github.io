@@ -9,9 +9,11 @@ aside, article {
 main {
 	/* Accounts for navbar header */
 	position:relative;
-	top:50px;
+	top:48px;
 	/* Accounts for navbar footer */
 	margin-bottom: 56px;
+
+
 }
 
 body{
@@ -166,7 +168,7 @@ nav.top {
 				main {
 					/* Accounts for navbar header */
 					position:relative;
-					top:65px;
+					top:63px;
 					/* Accounts for navbar footer */
 					margin-bottom: 56px;
 				}
