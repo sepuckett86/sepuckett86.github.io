@@ -6,6 +6,13 @@ aside, article {
 	float: left;
 }
 
+main {
+	/* Accounts for navbar header */
+	position:relative;
+	top:50px;
+	/* Accounts for navbar footer */
+	margin-bottom: 56px;
+}
 
 body{
 	text-align: center;
@@ -44,14 +51,6 @@ article {
 	text-align: center;
 }
 
-
-@media screen and (max-width: 960px) {
-	#container {
-	width: 100%;
-	}
-
-}
-
 .container {
 	background-color: white;
 }
@@ -74,7 +73,8 @@ article {
 /* End Fonts */
 
 /* Parallax */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;
     opacity: 1;
     background-attachment: fixed;
@@ -86,17 +86,22 @@ article {
 
 .bgimg-1 {
     background-image: url(clarinet.jpg);
-		min-height: 400px;
+		min-height: 350px;
 }
 
 .bgimg-2 {
     background-image: url(band.jpg);
-    min-height: 400px;
+    min-height: 350px;
 }
 
 .bgimg-3 {
-    background-image: url(electronic.jpg);
-    min-height: 400px;
+    background-image: url(electronic1.jpg);
+    min-height: 350px;
+}
+
+.bgimg-4 {
+    background-image: url(about.jpg);
+    min-height: 350px;
 }
 
 .opaque-container {
@@ -149,7 +154,40 @@ nav.top {
     height: 100%;
 }
 
-/*To get rid of white space below image*/
-img{
- vertical-align: top;
-}
+
+
+/* responsive design */
+@media only screen and (min-width:576px){
+        /* styles for browsers larger than 576px; */
+    }
+
+@media only screen and (min-width:768px){
+        /* styles for browsers larger than 768px, a bootstrap custom size; */
+				main {
+					/* Accounts for navbar header */
+					position:relative;
+					top:65px;
+					/* Accounts for navbar footer */
+					margin-bottom: 56px;
+				}
+    }
+@media only screen and (min-width:992px){
+        /* styles for browsers larger than 992px; */
+    }
+@media only screen and (min-width:1200px){
+
+    }
+@media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+@media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
