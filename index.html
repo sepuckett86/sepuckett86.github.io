@@ -21,7 +21,7 @@
 <body>
 
 			<header>
-				<nav class="navbar fixed-top navbar-expand-sm navbar-dark quicksand bottom" style="font-size:20px; background-color: #3D003D;">
+				<nav class="navbar fixed-top navbar-expand-md navbar-dark quicksand bottom" style="font-size:20px; background-color: #3D003D;">
 					<a class="navbar-brand" href="index.html"><img src="logo.png" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-top" alt="logo"> Susan Puckett Music</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 					  <span class="navbar-toggler-icon"></span>
@@ -52,11 +52,16 @@
 			</header>
 
     <main>
-      <br><br>
-    <div class="container-fluid" style="background-color:black">
-        <div class="container" style="padding:0;">
-			       <img src=title.png width="100%" alt="Susan Puckett Musical Creations">
+
+        <div style="padding:0; background-color:black;">
+          <picture>
+              <source media="(min-width: 900px)" srcset="titleSmall.png">
+              <source media="(min-width: 600px)" srcset="title.png">
+              <img src="title.png" alt="Susan Puckett Musical Creations" style="width:100%">
+          </picture>
         </div>
+
+<div class="container-fluid" style="background-color:white">
       <div class="container" style="background-color:white">
         <br><br>
 			<h1>Featured Song</h1>
@@ -71,7 +76,8 @@
 			<h1>Albums</h1>
 
 				<div class="row">
-					<div class="col">
+          <!--col-lg-6 means when screen is large, column is half row-->
+					<div class="col col-12 col-lg-6">
 						<div class="card">
 							<h5 class="card-header">Album 3</h5>
 							<div class="card-body">
@@ -79,7 +85,8 @@
 							</div>
 						  </div>
 					</div>
-					<div class="col">
+
+					<div class="col col-12 col-lg-6">
 						<div class="card">
 							<h5 class="card-header">A Sound Experiment</h5>
 							<div class="card-body">
@@ -98,8 +105,12 @@
 			<h1><a href="https://audiomack.com/artist/susan-puckett">My audiomack</a></h1>
 			<br><br>
             <h1><a href="http://www.icompositions.com/artists/Licostic">My iCompositions</a></h1>
-			<br><br><br>
-			<p></p>
+<br>
+<div style="text-align:center">
+  <img src="logo.png" alt="logo" style="max-width:70px"/>
+</div>
+<br>
+<br><br>
     </div>
     </div>
 			</main>
@@ -120,6 +131,6 @@
 
 
 
-    </div>
+
 </body>
 </html>
